@@ -1,0 +1,83 @@
+.part-title {
+    padding-left: 5px;
+    padding-top: 16.5px;
+}
+
+.flashSale-part {
+    height: max-content;
+    position: relative;
+    padding: 5px;
+}
+
+.flashSale-part-top {
+    height: 200px;
+    position: relative;
+}
+
+.sale-img {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+}
+
+.flashSale-part-back {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.flashSale-part-back img {
+    width: 100%;
+}
+
+.flashSale-part-saleoff {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-image: url('https://i.ibb.co/WxmxMJt/a.png');
+    height: 45px;
+    width: 45px;
+    background-repeat: no-repeat;
+    background-size: 45px;
+    text-align: center;
+}
+
+.flashSale-part-saleoff p:first-child {
+    color: red;
+}
+
+.flashSale-part-saleoff p:last-child {
+    margin-top: -18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.flashSale-part-bottom {
+    height: max-content;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.flashSale-part-bottom span {
+    color: var(--primary-color);
+    font-size: 12px;
+}
+
+.flashSale-part-bottom span:last-child {
+    font-size: 20px;
+}
+
+.progress {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 15px;
+    background-color: #ffd8d1;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.progress-bar {
+    background-color: var(--primary-color);
+    text-align: center;
+}

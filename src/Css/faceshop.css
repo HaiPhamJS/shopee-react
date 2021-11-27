@@ -1,0 +1,59 @@
+.faceshop {
+    height: max-content;
+    padding: 10px;
+}
+
+.faceshop-left-left {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.faceshop-left {
+    border-right: 1px solid rgb(214, 214, 214);
+}
+
+.faceshop-left-left img {
+    width: 60%;
+}
+
+.faceshop-left-right {
+    color: black;
+    font-size: 16px;
+}
+
+.faceshop-left-right p:last-child {
+    margin-top: -15px;
+    color: gray;
+}
+
+.btn-faceshop {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: rgb(255, 233, 209);
+    color: var(--primary-color);
+}
+
+.btn-faceshop.ml10 {
+    background-color: white;
+    color: rgb(99, 99, 99);
+    border: 0.5px solid rgb(192, 192, 192);
+}
+
+.faceshop-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.faceshop-right-part {
+    width: 33.333%;
+    height: 50%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.faceshop-right-part span:last-child {
+    color: var(--primary-color);
+    font-weight: 500;
+}

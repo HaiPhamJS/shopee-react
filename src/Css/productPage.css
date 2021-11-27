@@ -1,0 +1,150 @@
+.product-left {
+    height: max-content;
+    padding-top: 15px;
+}
+
+.product-left-top {
+    width: 100%;
+    height: max-content;
+}
+
+.product-left-top img {
+    width: 100%;
+}
+
+.product-left-bot {
+    height: max-content;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.product-left-bot img {
+    width: 90% !important;
+}
+
+.borderImg {
+    border: 3px solid var(--primary-color);
+}
+
+.product-right p {
+    font-size: 20px;
+}
+
+.product-price {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.line div {
+    background-color: rgb(255, 233, 209);
+    height: 22px;
+    line-height: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.trasport {
+    width: 100%;
+    padding-left: 30px;
+    height: max-content;
+}
+
+.product-content-left {
+    width: 20%;
+    color: gray;
+}
+
+.product-content-right {
+    width: 80%;
+}
+
+.product-content-right img {
+    width: 25px;
+}
+
+.product-color {
+    padding-left: 30px;
+}
+
+.color-part {
+    height: max-content;
+    width: max-content;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 0.5px solid rgb(219, 219, 219);
+}
+
+.color-part:hover {
+    color: var(--primary-color);
+    border: 0.5px solid var(--primary-color);
+}
+
+.activeColor {
+    color: var(--primary-color);
+    border: 0.5px solid var(--primary-color);
+}
+
+.count {
+    font-size: 18px;
+}
+
+.count button {
+    width: 40px;
+    background-color: white;
+    border: 0.5px solid rgb(170, 170, 170);
+}
+
+.count input {
+    width: 60px;
+    text-align: center;
+}
+
+.btnPro button {
+    height: 50px;
+    padding: 0px 15px;
+    margin-right: 15px;
+    font-size: 18px;
+    border: none;
+}
+
+.btnPro button:first-child {
+    background-color: rgba(255,87,34,0.1);
+    color: var(--primary-color);
+}
+
+.btnPro button:last-child {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.product-share {
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+.product-share img {
+    width: 25px !important;
+    height: 25px !important;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.product-share div {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.product-share div i {
+    line-height: 60px;
+    margin-right: 10px;
+}

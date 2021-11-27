@@ -1,0 +1,54 @@
+.header__mid {
+    padding-top: 3vh;
+}
+
+.header__mid img {
+    width: 90%;
+}
+
+.header__search {
+    height: 44px;
+    width: 100%;
+    background-color: white;
+}
+
+.header__search input {
+    border: none;
+    font-size: 16px;
+    height: 100%;
+    width: 90%;
+    padding-left: 10px;
+}
+
+.header__button {
+    height: 36px;
+    width: 9.5%;
+    margin-top: 4px;
+    background-color: var(--primary-color);
+    text-align: center;
+    line-height: 36px;
+    font-size: 18px;
+}
+
+.header__cart {
+    text-align: center;
+    position: relative;
+}
+
+.header__cart i {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.header__cart-count {
+    position: absolute;
+    top: 0;
+    left: 55%;
+}
+
+.header__cart-count span {
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+}

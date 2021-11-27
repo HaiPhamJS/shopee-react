@@ -1,0 +1,11 @@
+.home__category-part {
+    height: 140px;
+    width: 10%;
+    border: 0.5px solid rgb(231, 231, 231);
+    text-align: center;
+    padding: 5px;
+}
+
+.home__category-part img {
+    width: 80%;
+}

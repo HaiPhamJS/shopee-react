@@ -1,0 +1,18 @@
+.home__trendSearch-part {
+    width: 20%;
+    height: max-content;
+    padding: 5px;
+    border: 0.1px solid rgb(235, 235, 235);
+}
+
+.home__trendSearch-part-left {
+    width: 60%;
+}
+
+.home__trendSearch-part-right {
+    width: 40%;
+}
+
+.home__trendSearch-part-right img {
+    width: 100%;
+}

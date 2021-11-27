@@ -1,0 +1,37 @@
+.home__mall-title img {
+    height: 20px;
+    margin-left: 10px;
+}
+
+.home__mall-title span {
+    font-size: 14px !important;
+}
+
+.home__mall-title span:first-child {
+    color: var(--primary-color);
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+.home__mall-main-left {
+    width: 35%;
+    height: max-content;
+    padding-bottom: 12px;
+}
+
+.home__mall-main-right {
+    width: 65%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home__mall-main-right-part {
+    width: 25%;
+    height: 231px;
+    text-align: center;
+}
+
+.home__mall-main-right-part img {
+    width: 90%;
+}

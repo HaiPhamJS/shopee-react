@@ -1,0 +1,46 @@
+.home__banner {
+    height: max-content;
+}
+
+.home__banner-left {
+    height: max-content;
+    width: 65%;
+}
+
+.home__banner-left img {
+    height: 250px;
+}
+
+.home__banner-right {
+    width: calc(35% - 6px);
+    margin-left: 6px;
+}
+
+.home__banner-right img {
+    width: 100%;
+    margin-bottom: 6px;
+    height: 122px;
+}
+
+/* Slick-dots */
+.slick-dots {
+    bottom: 0;
+}
+
+.slick-dots li button:before {
+    color: white;
+    transform: scale(2);
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--primary-color);
+}
+
+.slick-next {
+    right: 0px;
+}
+
+.slick-prev {
+    left: 0px;
+    z-index: 1;
+}

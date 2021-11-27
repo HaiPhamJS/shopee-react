@@ -1,0 +1,30 @@
+/* col */
+@media screen and (max-width: 575px) {
+    .col-0 {
+        display: none;
+    }
+    .home__banner-left {
+        width: 100%;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    
+}
+
+
+/* md */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/* lg */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/* xl */
+@media screen and (min-width: 1200px) {
+    
+}

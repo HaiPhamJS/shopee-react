@@ -1,0 +1,13 @@
+.timtuongtu {
+    background-color: var(--primary-color);
+    display: none;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    bottom: -30px;
+    height: 30px;
+    margin-left: -7px;
+    width: 102%;
+    padding: 4px;
+    text-align: center;
+}

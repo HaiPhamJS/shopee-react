@@ -1,0 +1,9 @@
+.header {
+    height: max-content;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 13px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}

@@ -1,0 +1,13 @@
+.home__bar-part {
+    width: 11.11111%;
+    height: max-content;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.home__bar-part img {
+    width: 45%;
+    margin-top: 5px;
+}
+
